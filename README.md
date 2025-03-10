@@ -11,7 +11,7 @@
 
 ## <a name="quick-start">🤸 Quick Start / Início rápido</a>
 
-Follow these steps to set up the project locally on your machine.
+Follow these steps to set up the project locally on your machine.</br>
 PT// Siga esses passos de configuração no seu projeto local
 
 **Prerequisites / Pré-requisitos**
