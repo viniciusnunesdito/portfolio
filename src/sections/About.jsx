@@ -25,7 +25,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Olá! Meu nome é Vinícius Nunes</p>
               <p className="grid-subtext">
-                Sou desenvolvedor web
+                Sou um desenvolvedor Full-Stack apaixonado em tecnologia, principalmente em desenvolvimento web.
               </p>
             </div>
           </div>
@@ -36,9 +36,9 @@ const About = () => {
             <img src="assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Tecnologias</p>
+              <p className="grid-headtext">Tecnologias modernas</p>
               <p className="grid-subtext">
-                Domino as principais tecnologias para o desenvolvimento web. Sendo capaz de criar aplicações completas
+                Domino as principais tecnologias web da atualidade. Sendo capaz de criar aplicações completas
                 do front-end ao back-end.
               </p>
             </div>
@@ -61,8 +61,8 @@ const About = () => {
               />
             </div>
             <div>
-              <p className="grid-headtext">Posso trabalhar em diferentes fusos horários</p>
-              <p className="grid-subtext">Sou de Franca, São Paulo (Brasil), mas estou aberto a trabalhar remotamente para qualquer canto do mundo.</p>
+              <p className="grid-headtext">Tenho disponibilidade para trabalhar à distância</p>
+              <p className="grid-subtext">Sou de Franca, São Paulo, mas estou aberto a trabalhar remotamente para qualquer canto do mundo.</p>
               <Button name="Entre em contato" isBeam containerClass="w-full mt-10" />
             </div>
           </div>
@@ -73,9 +73,11 @@ const About = () => {
             <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Não somente um desenvolvedor</p>
+              <p className="grid-headtext">Não sou apenas um desenvolvedor</p>
               <p className="grid-subtext">
-                Estou
+                Te ajudo não somente na hora do desenvolvimento do site, mas caso você julgue necessário posso
+                ajudar com ideias na concepção do seu site para deixar ele a sua cara e torná-lo o mais
+                intuitivo possível para você e outros usuários.
               </p>
             </div>
           </div>
@@ -90,10 +92,10 @@ const About = () => {
             />
 
             <div className="space-y-2">
-              <p className="grid-subtext text-center">Entre em contato</p>
+              <p className="grid-subtext text-center">Entre em contato pelo WhatsApp</p>
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">viniciusnunesdito@gmail.com</p>
+                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">(16)993225524</p>
               </div>
             </div>
           </div>

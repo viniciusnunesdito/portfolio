@@ -58,11 +58,10 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'Sistema interno',
-    desc: 'Desenvolvi um sistema sob medida',
-    subdesc:
-      'O cliente',
-    href: 'https://www.youtube.com',
+    title: 'Sistema de associados',
+    desc: 'Recentemente, trabalhei como freelancer no desenvolvimento de um sistema interno para uma associação. Utilizei principalmente Vue.js e Node.js para o desenvolvimento. Com o sistema o cliente pôde largar o papel e passou a armazenar e manipular os dados de seus associados somente pelo computador.',
+    subdesc: 'Construí um site bem acessível, pois após entender os requisitos do sistema, concluí que o ideal seria um site bem limpo e com poucos botões, tendo em vista que a maioria dos usuários seriam pessoas com pouca prática no uso de computadores. OBS: para testes no site logue com "novonovo" no login e senha.',
+    href: 'https://associadosbancodobrasilfranca.onrender.com/login',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
     logoStyle: {
@@ -95,11 +94,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Freelance',
-    desc: 'Criei e alterei',
+    title: 'Cecília Digital',
+    desc: 'Este projeto se trata de uma página para o aplicativo de organização financeira Cecília Digital. Nele participei como desenvolvedor front-end freelancer. Minha contribuição foi a introdução da página home, a criação da página Blog por completo e adição do navbar e footer.',
     subdesc:
-      'O cliente',
-    href: 'https://www.youtube.com',
+      'Nesse projeto utilizei principalmente React, TypeScript e a biblioteca styled-components. Vale lembrar que esse site foi uma cópia que subi, pois a versão completa ainda está sendo desenvolvida por outros profissionais contratados para o projeto.',
+    href: 'https://cecilia-digital-demo.vercel.app/',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
@@ -147,7 +146,7 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Cargo atual',
+    name: 'Linguagens',
     pos: 'Analista de redes',
     duration: '2022 - Present',
     title: "O Framer serve como minha ferramenta preferida para criar protótipos interativos. Eu o uso para dar vida aos designs, permitindo que as partes interessadas experimentem o fluxo do usuário e as interações antes do desenvolvimento.",
@@ -165,6 +164,15 @@ export const workExperiences = [
   },
   {
     id: 3,
+    name: 'Notion',
+    pos: 'Web',
+    duration: '2019 - 2020',
+    title: "O Notion me ajuda a manter meus projetos organizados. Eu o uso para gerenciamento de projetos, rastreamento de tarefas e como um hub central para documentação, garantindo que tudo, desde notas de design até.",
+    icon: '/assets/notion.svg',
+    animation: 'salute',
+  },
+  {
+    id: 4,
     name: 'Notion',
     pos: 'Web',
     duration: '2019 - 2020',
