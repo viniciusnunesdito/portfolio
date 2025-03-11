@@ -45,7 +45,7 @@ REACT_APP_EMAILJS_RECEIVERID=your_emailjs_receiver_id
 Replace the placeholder values with your actual EmailJS credentials. You can obtain these credentials by signing up on the [EmailJS website](https://www.emailjs.com/).</br>
 <i>PT// Após o símbolo de = você precisa trocar os valores como "your_emailjs_user_id" pelas credenciais geradas através deste site: [EmailJS website](https://www.emailjs.com/)</i>
 
-**Running the Project / Rodando o projeto**
+**Running the Project / Rodando o projeto**</br>
 <i>PT// Basta usar esse comando abaixo</i>
 
 ```bash
