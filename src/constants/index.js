@@ -56,7 +56,7 @@ export const myProjects = [
   {
     title: 'Goiacas Delivery',
     desc: 'Página administrativa para uma empresa de delivery de Rifaina que realiza entregas terrestres e fluviais, atendendo clientes tanto na cidade quanto nas áreas do rio.',
-    subdesc: 'No mês de agosto de 2025 realizei o desenvolvimento front-end dessa plataforma. As tecnologias utilizadas foram React, Next e TypeScript.',
+    subdesc: 'No mês de agosto de 2025 realizei o desenvolvimento front-end dessa plataforma. As tecnologias utilizadas foram React, Next e TypeScript. Para fazer login, utilize qualquer email e senha, pois a autenticação é apenas simulada para fins de demonstração.',
     href: 'https://goiacasdelivery-portifolio.vercel.app',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo1.png',
