@@ -1,4 +1,4 @@
-const techStack = ['React', 'Vue', 'Next.js', 'JavaScript', 'Node.js', 'TypeScript', 'Postgre'];
+const techStack = ['React', 'Vue', 'Next.js', 'JavaScript', 'Node.js', 'TypeScript', 'PostgreSQL'];
 
 const logoMap = {
   React: '/assets/react.svg',
@@ -7,7 +7,7 @@ const logoMap = {
   JavaScript: '/assets/javascript.svg',
   'Node.js': '/assets/node.svg',
   TypeScript: '/assets/typescript.png',
-  Postgre: '/assets/postgres.svg',
+  PostgreSQL: '/assets/postgres.svg',
 };
 
 const Intro = () => {
