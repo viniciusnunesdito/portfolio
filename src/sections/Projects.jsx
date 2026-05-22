@@ -43,9 +43,6 @@ const Projects = () => {
 
       <div className="grid lg:grid-cols-2 grid-cols-1 mt-14 gap-5 w-full">
         <div className="flex flex-col gap-5 relative sm:p-10 py-10 px-5 shadow-2xl shadow-black-200 rounded-2xl border border-black-300 bg-black-200/60 backdrop-blur-md">
-          <div className="absolute top-0 right-0">
-            <img src={currentProject.spotlight} alt="spotlight" className="w-full h-96 object-cover rounded-xl" />
-          </div>
 
           <div className="flex flex-col gap-5 text-white-600 my-5">
             <p className="text-white text-2xl font-semibold animatedText">{currentProject.title}</p>
