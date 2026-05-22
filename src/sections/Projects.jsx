@@ -37,7 +37,7 @@ const Projects = () => {
           Projetos que mostram o tipo de problema que eu gosto de resolver.
         </h1>
         <p className="mt-5 max-w-3xl text-base sm:text-lg text-white-600">
-          Uma seleção enxuta de trabalhos focados em produto, interface e execução técnica. Use as setas para navegar entre os casos.
+          Uma seleção enxuta de trabalhos focados em produto, interface e execução técnica. Clique nas setas para navegar entre os casos.
         </p>
       </div>
 
