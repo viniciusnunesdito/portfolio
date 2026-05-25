@@ -30,19 +30,19 @@ const Projects = () => {
   const currentProject = myProjects[selectedProjectIndex];
 
   return (
-    <section id="projects" className="c-space pt-28 pb-20 min-h-screen">
+    <section id="projects" className="c-space pt-24 sm:pt-28 pb-16 sm:pb-20 min-h-screen">
       <div className="max-w-6xl mx-auto">
-        <p className="text-sm uppercase tracking-[0.35em] text-white/45">Portfólio</p>
-        <h1 className="mt-4 text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
+        <p className="text-xs sm:text-sm uppercase tracking-[0.3em] sm:tracking-[0.35em] text-white/45">Portfólio</p>
+        <h1 className="mt-4 text-3xl sm:text-4xl lg:text-6xl font-bold text-white leading-tight">
           Projetos que mostram o tipo de problema que eu gosto de resolver.
         </h1>
-        <p className="mt-5 max-w-3xl text-base sm:text-lg text-white-600">
+        <p className="mt-5 max-w-3xl text-sm sm:text-base lg:text-lg text-white-600">
           Uma seleção enxuta de trabalhos focados em produto, interface e execução técnica. Clique nas setas para navegar entre os casos.
         </p>
       </div>
 
       <div className="grid lg:grid-cols-2 grid-cols-1 mt-14 gap-5 w-full">
-        <div className="flex flex-col gap-5 relative sm:p-10 py-10 px-5 shadow-2xl shadow-black-200 rounded-2xl border border-black-300 bg-black-200/60 backdrop-blur-md">
+        <div className="flex flex-col gap-5 relative p-6 sm:p-10 shadow-2xl shadow-black-200 rounded-2xl border border-black-300 bg-black-200/60 backdrop-blur-md">
 
           <div className="flex flex-col gap-5 text-white-600 my-5">
             <p className="text-white text-2xl font-semibold animatedText">{currentProject.title}</p>
@@ -77,7 +77,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="border border-black-300 bg-black-200 rounded-2xl h-96 md:h-full overflow-hidden shadow-2xl shadow-black-200">
+        <div className="border border-black-300 bg-black-200 rounded-2xl h-72 sm:h-96 lg:h-full overflow-hidden shadow-2xl shadow-black-200">
           <Canvas>
             <ambientLight intensity={Math.PI} />
             <directionalLight position={[10, 10, 5]} />

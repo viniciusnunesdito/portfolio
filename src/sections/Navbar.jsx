@@ -21,18 +21,45 @@ const Navbar = () => {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-black/90">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-sm">
       <div className="max-w-7xl mx-auto">
-        <div className="flex justify-between items-center py-5 mx-auto c-space">
-          <a href="#intro" className="text-neutral-400 font-bold text-xl hover:text-white transition-colors">
+        <div className="flex justify-between items-center py-4 sm:py-5 mx-auto c-space">
+          <a href="#intro" className="text-neutral-400 font-bold text-lg sm:text-xl hover:text-white transition-colors">
             Vinícius Nunes
           </a>
 
           <button
             onClick={toggleMenu}
-            className="text-neutral-400 hover:text-white focus:outline-none sm:hidden flex"
+            className="text-neutral-200 hover:text-white focus:outline-none sm:hidden flex items-center justify-center w-10 h-10"
             aria-label="Toggle menu">
-            <img src={isOpen ? 'assets/close.svg' : 'assets/menu.svg'} alt="toggle" className="w-6 h-6" />
+            {isOpen ? (
+              <svg
+                aria-hidden="true"
+                viewBox="0 0 24 24"
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round">
+                <path d="M6 6l12 12" />
+                <path d="M18 6l-12 12" />
+              </svg>
+            ) : (
+              <svg
+                aria-hidden="true"
+                viewBox="0 0 24 24"
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round">
+                <path d="M3 6h18" />
+                <path d="M3 12h18" />
+                <path d="M3 18h18" />
+              </svg>
+            )}
           </button>
 
           <nav className="sm:flex hidden">
@@ -41,8 +68,8 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className={`nav-sidebar ${isOpen ? 'max-h-screen' : 'max-h-0'}`}>
-        <nav className="p-5">
+      <div className={`nav-sidebar ${isOpen ? 'max-h-[calc(100vh-80px)]' : 'max-h-0'}`}>
+        <nav className="p-5 max-h-[calc(100vh-80px)] overflow-y-auto">
           <NavItems onClick={closeMenu} />
         </nav>
       </div>

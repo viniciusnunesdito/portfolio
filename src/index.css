@@ -11,6 +11,13 @@
 body {
   background: #010103;
   font-family: 'General Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 @layer utilities {
@@ -35,7 +42,7 @@ body {
   }
 
   .nav-sidebar {
-    @apply absolute left-0 right-0 bg-black-200 backdrop-blur-sm transition-all duration-300 ease-in-out overflow-hidden z-20 mx-auto sm:hidden block;
+    @apply absolute left-0 right-0 top-full bg-black-200 backdrop-blur-sm transition-all duration-300 ease-in-out overflow-hidden z-20 mx-auto sm:hidden block;
   }
 
   .text-gray_gradient {
@@ -168,6 +175,7 @@ body {
     rgba(255, 255, 255, 0.025) 100%
   );
 }
+
 
 @keyframes wave-animation {
   0% {
